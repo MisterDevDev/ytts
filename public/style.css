@@ -1,0 +1,22 @@
+#section-hero { 
+    background-image: url('https://ytts-coaching.s3.us-east-2.amazonaws.com/ytts_hero.jpg');
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    z-index: -1;
+}
+
+#section-hero::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+    background-color: rgba(0,0,0,0.6);
+}
