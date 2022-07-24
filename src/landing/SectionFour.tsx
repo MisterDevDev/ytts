@@ -1,4 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faMedal, faPlaneDeparture, faClipboardList} from '@fortawesome/free-solid-svg-icons'
 import React from "react";
 import { Button, Col, Row } from "react-bootstrap";
 
@@ -8,8 +9,8 @@ const SectionFour = () => {
       <h2 className="display-4 text-center">YTTS Services</h2>
       <Row>
         <Col xs={12} md={4} className="p-2">
-          <div>
-            <FontAwesomeIcon icon="medal" />
+          <div className="text-center" aria-hidden={true}>
+            <FontAwesomeIcon icon={faMedal} />
           </div>
           <h3 className="h4 mb-4 text-center">Tour Coaching</h3>
           <p>
@@ -22,8 +23,8 @@ const SectionFour = () => {
           </Button>
         </Col>
         <Col xs={12} md={4} className="p-2">
-          <div aria-hidden={true}>
-            <FontAwesomeIcon icon="plane-departure" />
+          <div className="text-center" aria-hidden={true}>
+            <FontAwesomeIcon icon={faPlaneDeparture}/>
           </div>
           <h3 className="h4 mb-4 text-center">Travel Arrangement</h3>
           <p>
@@ -37,8 +38,8 @@ const SectionFour = () => {
           </Button>
         </Col>
         <Col xs={12} md={4} className="p-2">
-          <div aria-hidden={true}>
-            <FontAwesomeIcon icon="clipboard-list" />
+          <div className="text-center" aria-hidden={true}>
+            <FontAwesomeIcon icon={faClipboardList} />
           </div>
           <h3 className="h4 mb-4 text-center">Match Tagging</h3>
           <p>

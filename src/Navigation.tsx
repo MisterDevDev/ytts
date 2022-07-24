@@ -19,7 +19,7 @@ const Navigation = () => {
         />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#section-hero">To the Top</Nav.Link>
+            <Nav.Link href="#section-hero">Home</Nav.Link>
             <Nav.Link href="#section-description">Description</Nav.Link>
             <Nav.Link href="#section-trailer">Trailer</Nav.Link>
             <Nav.Link href="#section-showcase">Testimonials</Nav.Link>

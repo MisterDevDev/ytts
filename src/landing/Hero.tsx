@@ -9,11 +9,11 @@ const Hero = () => {
     >
       <Container>
         <h1 className="display-1 text-primary text-upercase mt-5">YTTS</h1>
-        <p className="display-4">Tennis Travel Coaching</p>
+        <p className="display-4">Tour Coaching</p>
         <p className="lead">
-          Personalized Feedback for tournament level competition
+          Tour coach for high performance junior players
         </p>
-        <p className="lead">Coaching tennis players for excellence</p>
+        <p className="lead">Tour coaching, Travel management, and Match tagging</p>
         <p>
           <strong>Set-up an Appointment now:</strong>
         </p>
