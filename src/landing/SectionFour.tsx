@@ -7,8 +7,8 @@ const SectionFour = () => {
   return (
     <section className="mt-5">
       <h2 className="display-4 text-center">YTTS Services</h2>
-      <Row>
-        <Col xs={12} md={4} className="p-2">
+      <Row style={{padding:'0.75rem'}}>
+        <Col xs={12} md={4} className="d-flex flex-column align-items-center mb-5">
           <div className="text-center" aria-hidden={true}>
             <FontAwesomeIcon icon={faMedal} />
           </div>
@@ -22,7 +22,7 @@ const SectionFour = () => {
             Read More...
           </Button>
         </Col>
-        <Col xs={12} md={4} className="p-2">
+        <Col xs={12} md={4} className="d-flex flex-column align-items-center">
           <div className="text-center" aria-hidden={true}>
             <FontAwesomeIcon icon={faPlaneDeparture}/>
           </div>
@@ -37,7 +37,7 @@ const SectionFour = () => {
             Read More...
           </Button>
         </Col>
-        <Col xs={12} md={4} className="p-2">
+        <Col xs={12} md={4} className="d-flex flex-column align-items-center">
           <div className="text-center" aria-hidden={true}>
             <FontAwesomeIcon icon={faClipboardList} />
           </div>

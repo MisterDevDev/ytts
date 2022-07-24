@@ -11,7 +11,7 @@ const SectionSix = () => {
     return(
         <section id="section-reviews" className="mt-5">
             
-            <Row style={{padding:'0.75rem'}}>
+            <Row className='mb-3' style={{padding:'0.75rem'}}>
                 <h2>Reviews</h2>
                 <Col xs={12} md={6} xl={3} className='gx-5 gy-3'>
                     <figure>

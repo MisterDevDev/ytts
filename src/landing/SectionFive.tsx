@@ -30,15 +30,16 @@ const SectionFive = () => {
         <h2>Choose your service</h2>
         <Col xs={12} md={4}>
           <Card border="success">
-            <Card.Header style={{ backgroundColor: "#198754" }}>
-              <h2>Match Tagging </h2>
-              <h4>$299/per match</h4>
+            <Card.Header style={{ backgroundColor: "#DC3545" }}>
+              <h2>Tour Coaching</h2>
+              <h4>$499/per tournament</h4>
             </Card.Header>
             <Card.Body>
               <ListGroup variant="flush">
-                <ListGroupItem><FontAwesomeIcon icon={faCircleExclamation} />  Error Analysis</ListGroupItem>
-                <ListGroupItem><FontAwesomeIcon icon={faArrowDown19} />  Score Tracking</ListGroupItem>
-                <ListGroupItem><FontAwesomeIcon icon={faClipboardCheck} />  Serve Assessment</ListGroupItem>
+                <ListGroupItem><FontAwesomeIcon icon={faArrowUpRightDots} />  Skill Development</ListGroupItem>
+                <ListGroupItem><FontAwesomeIcon icon={faBrain} />  Mentality Building</ListGroupItem>
+                <ListGroupItem><FontAwesomeIcon icon={faFistRaised} />  Stength and Deficiency Tuning</ListGroupItem>
+                <ListGroupItem><FontAwesomeIcon icon={faPerson} />  Support and Networking</ListGroupItem>
               </ListGroup>
             </Card.Body>
             <Card.Footer>
@@ -67,16 +68,15 @@ const SectionFive = () => {
         </Col>
         <Col xs={12} md={4}>
           <Card border="success">
-            <Card.Header style={{ backgroundColor: "#DC3545" }}>
-              <h2>Tour Coaching</h2>
-              <h4>$499/per tournament</h4>
+            <Card.Header style={{ backgroundColor: "#198754" }}>
+              <h2>Match Tagging </h2>
+              <h4>$299/per match</h4>
             </Card.Header>
             <Card.Body>
               <ListGroup variant="flush">
-                <ListGroupItem><FontAwesomeIcon icon={faArrowUpRightDots} />  Skill Development</ListGroupItem>
-                <ListGroupItem><FontAwesomeIcon icon={faBrain} />  Mentality Building</ListGroupItem>
-                <ListGroupItem><FontAwesomeIcon icon={faFistRaised} />  Stength and Deficiency Tuning</ListGroupItem>
-                <ListGroupItem><FontAwesomeIcon icon={faPerson} />  Support and Networking</ListGroupItem>
+                <ListGroupItem><FontAwesomeIcon icon={faCircleExclamation} />  Error Analysis</ListGroupItem>
+                <ListGroupItem><FontAwesomeIcon icon={faArrowDown19} />  Score Tracking</ListGroupItem>
+                <ListGroupItem><FontAwesomeIcon icon={faClipboardCheck} />  Serve Assessment</ListGroupItem>
               </ListGroup>
             </Card.Body>
             <Card.Footer>

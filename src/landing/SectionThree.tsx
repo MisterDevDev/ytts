@@ -16,7 +16,7 @@ const SectionThree = () => {
           </p>
         </div>
       </Col>
-      <Col>
+      <Col md={{offset:1}}>
         <Carousel
           interval={5000}
           controls={true}
