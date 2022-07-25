@@ -28,9 +28,9 @@ const ContactModal: FC<ContactModalProps> = ({show, handleClose}) => {
                     </Form.Group>
                     <Form.Group className="mb-3">
                         <small>Select Services</small>
-                        <Form.Check type="checkbox" label="Check me out" />
-                        <Form.Check type="checkbox" label="Check me out" />
-                        <Form.Check type="checkbox" label="Check me out" />
+                        <Form.Check type="checkbox" label="Tour Coaching" />
+                        <Form.Check type="checkbox" label="Travel Arrangement" />
+                        <Form.Check type="checkbox" label="Match Tagging" />
                     </Form.Group>
                 </Form>
             </Modal.Body>
