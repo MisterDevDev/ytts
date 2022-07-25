@@ -1,11 +1,11 @@
 import React, { RefAttributes } from "react";
 import { Card, Col, Container, Ratio, Row } from "react-bootstrap";
 
-const SectionTwo = () => {
+const CoachVideo = () => {
   return (
     <Container>
-      <section id="section-two" className="mt-5">
-        <Row>
+      <section id="section-coach" className="mt-5">
+        <Row style={{paddingTop:'4rem'}}>
           <Col>
             <img style={{marginLeft: 'auto', marginRight:'auto', display:'block'}} 
             height={'650px'} width={'350px'}
@@ -13,7 +13,7 @@ const SectionTwo = () => {
           </Col>
           <Col>
           <Card>
-            <Card.Header style={{backgroundColor:'#00A693'}}><h2>Coach Yukako Noi</h2></Card.Header>
+            <Card.Header style={{backgroundColor:'#539e8a'}}><h2>Coach Yukako Noi</h2></Card.Header>
             <Card.Body>
               <div style={{padding:'1rem'}}>
                 <h2 className="display-4"></h2>
@@ -42,4 +42,5 @@ const SectionTwo = () => {
   );
 };
 
-export default SectionTwo;
+export default CoachVideo;
+//#f6c5be tan color on logo

@@ -3,7 +3,7 @@ import {faMedal, faPlaneDeparture, faClipboardList} from '@fortawesome/free-soli
 import React from "react";
 import { Button, Col, Row } from "react-bootstrap";
 
-const SectionFour = () => {
+const Services = () => {
   return (
     <section className="mt-5">
       <h2 className="display-4 text-center">YTTS Services</h2>
@@ -18,7 +18,7 @@ const SectionFour = () => {
             memories. YTTS will help the platers to perform better on the road
             and to have the best experience
           </p>
-          <Button variant="info" size="sm" className="mt-auto">
+          <Button style={{backgroundColor:'#539e8a'}} size="sm">
             Read More...
           </Button>
         </Col>
@@ -33,7 +33,7 @@ const SectionFour = () => {
             Organizaing a trip is a lot of work. YTTS will guide you to make the
             traveling easier.
           </p>
-          <Button variant="info" size="sm" className="mt-auto">
+          <Button style={{backgroundColor:'#539e8a'}} size="sm">
             Read More...
           </Button>
         </Col>
@@ -47,7 +47,7 @@ const SectionFour = () => {
             From the statistics, you can see the pattern of your mistakes,
             percentages on serves, numbers of winners or unforced errors.
           </p>
-          <Button variant="info" size="sm" className="mt-auto">
+          <Button style={{backgroundColor:'#539e8a'}} size="sm">
             Read More...
           </Button>
         </Col>
@@ -56,4 +56,4 @@ const SectionFour = () => {
   );
 };
 
-export default SectionFour;
+export default Services;

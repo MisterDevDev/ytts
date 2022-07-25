@@ -1,7 +1,7 @@
 import React from "react";
 import { Carousel, Row, Col, Container } from "react-bootstrap";
 
-const SectionThree = () => {
+const CarouselSlides = () => {
   return (
     <Container>
       <Row className="mt-5">
@@ -58,4 +58,4 @@ const SectionThree = () => {
   );
 };
 
-export default SectionThree;
+export default CarouselSlides

@@ -3,7 +3,7 @@ import { Container, Navbar, Nav } from "react-bootstrap";
 
 const Navigation = () => {
   return (
-    <Navbar bg="primary" expand="lg" fixed="top">
+    <Navbar bg="white" expand="lg" fixed="top">
       <Container>
         <Navbar.Brand href="#home">
           <img
@@ -20,9 +20,10 @@ const Navigation = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#section-hero">Home</Nav.Link>
-            <Nav.Link href="#section-description">Description</Nav.Link>
-            <Nav.Link href="#section-trailer">Trailer</Nav.Link>
-            <Nav.Link href="#section-showcase">Testimonials</Nav.Link>
+            <Nav.Link href="#section-about">About</Nav.Link>
+            <Nav.Link href="#section-coach">Coach</Nav.Link>
+            <Nav.Link href="#section-pricing">Pricing</Nav.Link>
+            <Nav.Link href="#section-reviews">Reviews</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

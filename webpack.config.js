@@ -1,39 +1,39 @@
 const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-  mode: "development",
-  devtool: "source-map",
-  entry: path.join(__dirname, "./src/index.tsx"),
-  output: {
-    filename: "bundle.js",
-    path: path.join(__dirname, "./dist"),
-  },
-  module: {
-    rules: [
-      {
-        test: /\.tsx?$/,
-        use: "ts-loader",
-        exclude: /node_modules/,
-      },
-      {
-        loader: "babel-loader",
-        exclude: /(node_modules)/,
-      },
-      {
-        test: /\.css$/,
-        use: ["style-loader", "css-loader"],
-      },
-      {
-        test: /\.(png|pdf|jpe?g|gif|svg)$/i,
-        use: [
-          {
-            loader: "file-loader",
-          },
+    entry: "./src/index.tsx",
+    output: { path: path.join(__dirname, "dist"), filename: "index.bundle.js" },
+    mode: process.env.NODE_ENV || "development",
+    resolve: {
+        extensions: [".tsx", ".ts", ".js"],
+    },
+    devServer: { contentBase: path.join(__dirname, "src") },
+    module: {
+        rules: [
+            {
+                test: /\.(js|jsx)$/,
+                exclude: /node_modules/,
+                use: ["babel-loader"],
+            },
+            {
+                test: /\.(ts|tsx)$/,
+                exclude: /node_modules/,
+                use: ["ts-loader"],
+            },
+            {
+                test: /\.(css|scss)$/,
+                use: ["style-loader", "css-loader"],
+            },
+            {
+                test: /\.(jpg|jpeg|png|gif|mp3|svg)$/,
+                use: ["file-loader"],
+            },
         ],
-      },
+    },
+    plugins: [
+        new HtmlWebpackPlugin({
+            template: path.join(__dirname, "public", "index.html"),
+        }),
     ],
-  },
-  resolve: {
-    extensions: [".tsx", ".ts", ".js"],
-  },
 };

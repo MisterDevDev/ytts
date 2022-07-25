@@ -6,7 +6,7 @@ import {
     faQuoteRight
 } from '@fortawesome/free-solid-svg-icons'
 
-const SectionSix = () => {
+const Reviews = () => {
 
     return(
         <section id="section-reviews" className="mt-5">
@@ -98,4 +98,4 @@ const SectionSix = () => {
     )
 }
 
-export default SectionSix
+export default Reviews

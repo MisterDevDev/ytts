@@ -23,14 +23,14 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 
 
-const SectionFive = () => {
+const Pricing = () => {
   return (
-    <section>
+    <section id="section-pricing">
         <Row style={{padding:'0.75rem'}}>
         <h2>Choose your service</h2>
         <Col xs={12} md={4}>
-          <Card border="success">
-            <Card.Header style={{ backgroundColor: "#DC3545" }}>
+          <Card className="mb-4">
+            <Card.Header style={{ backgroundColor: "#ACE1AF" }}>
               <h2>Tour Coaching</h2>
               <h4>$499/per tournament</h4>
             </Card.Header>
@@ -48,8 +48,8 @@ const SectionFive = () => {
           </Card>
         </Col>
         <Col xs={12} md={4}>
-          <Card border="Warning">
-            <Card.Header style={{ backgroundColor: "#ffc107" }}>
+          <Card className="mb-4">
+            <Card.Header style={{backgroundColor:'#539e8a'}}>
               <h2>Travel Management</h2>
               <h4>$199 + travel fees/per tournament</h4>
             </Card.Header>
@@ -67,8 +67,8 @@ const SectionFive = () => {
           </Card>
         </Col>
         <Col xs={12} md={4}>
-          <Card border="success">
-            <Card.Header style={{ backgroundColor: "#198754" }}>
+          <Card className="mb-4">
+            <Card.Header style={{ backgroundColor: "#8cc751" }}>
               <h2>Match Tagging </h2>
               <h4>$299/per match</h4>
             </Card.Header>
@@ -89,4 +89,4 @@ const SectionFive = () => {
   );
 };
 
-export default SectionFive;
+export default Pricing;
