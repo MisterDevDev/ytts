@@ -19,19 +19,14 @@ const CarouselSlides = () => {
           </p>
         </div>
       </Col>
-      <Col>
-        <Carousel
-          interval={5000}
-          controls={true}
-          className="mt-5"
-          style={{ height: "700px", width: "500px" }}
-        >
+      <Col xs={12} md={6}>
+        <Carousel interval={5000} controls={true} className="mt-5">
           <Carousel.Item>
             <img
               className="d-block img-fluid align-self-center"
               src="https://ytts-coaching.s3.us-east-2.amazonaws.com/IMG_0888.jpg"
               alt="First slide"
-              style={{ maxWidth: "500px", objectFit: "contain" }}
+              style={{ objectFit: "contain" }}
             />
           </Carousel.Item>
           <Carousel.Item>
@@ -39,7 +34,7 @@ const CarouselSlides = () => {
               className="d-block img-fluid align-self-center"
               src="https://ytts-coaching.s3.us-east-2.amazonaws.com/IMG_4731.jpg"
               alt="Second slide"
-              style={{ maxWidth: "500px", objectFit: "contain" }}
+              style={{ objectFit: "contain" }}
             />
           </Carousel.Item>
           <Carousel.Item>
@@ -47,7 +42,7 @@ const CarouselSlides = () => {
               className="d-block img-fluid align-self-center"
               src="https://ytts-coaching.s3.us-east-2.amazonaws.com/IMG_4717.jpg"
               alt="Third slide"
-              style={{ maxWidth: "500px", objectFit: "contain" }}
+              style={{ objectFit: "contain" }}
             />
           </Carousel.Item>
           <Carousel.Item>
@@ -55,7 +50,7 @@ const CarouselSlides = () => {
               className="d-block img-fluid align-self-center"
               src="https://ytts-coaching.s3.us-east-2.amazonaws.com/IMG_9503.jpg"
               alt="Fourth slide"
-              style={{ maxWidth: "500px", objectFit: "contain" }}
+              style={{ objectFit: "contain" }}
             />
           </Carousel.Item>
         </Carousel>
