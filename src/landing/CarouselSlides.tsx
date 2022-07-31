@@ -20,37 +20,57 @@ const CarouselSlides = () => {
         </div>
       </Col>
       <Col xs={12} md={6}>
-        <Carousel interval={5000} controls={true} className="mt-5">
+        <Carousel
+          interval={5000}
+          controls={true}
+          className="carousel-container"
+        >
+          <Carousel.Item>
+            <img
+              className="d-block img-fluid align-self-center"
+              src="https://ytts-coaching.s3.us-east-2.amazonaws.com/IMG_9652_2.jpg"
+              alt="First slide"
+              style={{ maxHeight: "800px", objectFit: "contain" }}
+            />
+          </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block img-fluid align-self-center"
               src="https://ytts-coaching.s3.us-east-2.amazonaws.com/IMG_0888.jpg"
-              alt="First slide"
-              style={{ objectFit: "contain" }}
+              alt="Second slide"
+              style={{ maxHeight: "800px", objectFit: "contain" }}
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block img-fluid align-self-center"
               src="https://ytts-coaching.s3.us-east-2.amazonaws.com/IMG_4731.jpg"
-              alt="Second slide"
-              style={{ objectFit: "contain" }}
+              alt="Third slide"
+              style={{ maxHeight: "800px", objectFit: "contain" }}
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block img-fluid align-self-center"
               src="https://ytts-coaching.s3.us-east-2.amazonaws.com/IMG_4717.jpg"
-              alt="Third slide"
-              style={{ objectFit: "contain" }}
+              alt="Fourth slide"
+              style={{ maxHeight: "800px", objectFit: "contain" }}
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block img-fluid align-self-center"
               src="https://ytts-coaching.s3.us-east-2.amazonaws.com/IMG_9503.jpg"
-              alt="Fourth slide"
-              style={{ objectFit: "contain" }}
+              alt="Fifth slide"
+              style={{ maxHeight: "800px", objectFit: "contain" }}
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block img-fluid align-self-center"
+              src="https://ytts-coaching.s3.us-east-2.amazonaws.com/IMG_2940.jpg"
+              alt="Fifth slide"
+              style={{ maxHeight: "800px", objectFit: "contain" }}
             />
           </Carousel.Item>
         </Carousel>
