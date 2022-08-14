@@ -13,6 +13,8 @@
 }
 
 @media only screen and (max-width:800px){
+    div {overflow-x: hidden;}
+    body {overflow-x: hidden;}
     .carousel-container {
         margin-top: 1rem;
         height: 500px;
