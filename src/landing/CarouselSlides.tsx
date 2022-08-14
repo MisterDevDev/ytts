@@ -9,13 +9,12 @@ const CarouselSlides = () => {
           <h2>Youth Excellence</h2>
           <p>
             At YTTS we believe in instilling good habits and strong community in
-            junior athletes to condition long time success. Not only does Yukako
+            junior athletes to condition long term success. Not only does Yukako
             take great care to improve the game of all her athletes; she also
             handles the tedious details involved with travel tournaments so
             athletes and their family can focus on the important things. With
             five years of experience in coaching and an uncompromising work
-            ethic, Coach Yukako will is driven to help young athletes to
-            achieve.
+            ethic, Coach Yukako is driven to help young athletes achieve.
           </p>
         </div>
       </Col>
