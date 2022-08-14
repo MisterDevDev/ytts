@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Button, Container } from "react-bootstrap";
-import ContactModal from "./ContactModal";
+import ContactModal from "../modals/ContactModal";
 
 const Hero = () => {
   const [showModal, setShowModal] = useState(false);

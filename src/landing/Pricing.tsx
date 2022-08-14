@@ -14,15 +14,15 @@ import {
   faClipboardCheck,
   faPlaneArrival,
   faMagnifyingGlass,
-  faHotel,
   faReceipt,
   faPersonChalkboard,
   faArrowUpRightDots,
   faBrain,
   faFistRaised,
   faPerson,
+  faIdBadge,
 } from "@fortawesome/free-solid-svg-icons";
-import ContactModal from "./ContactModal";
+import ContactModal from "../modals/ContactModal";
 
 const Pricing = () => {
   const [show, setShow] = useState(false);
@@ -54,7 +54,7 @@ const Pricing = () => {
           <Card className="mb-4">
             <Card.Header style={{ backgroundColor: "#ACE1AF" }}>
               <h2>Tour Coaching</h2>
-              <h4>$899 + Coach's expense /per tournament</h4>
+              <h4>Starting @ $899 + Coach's expense /per tournament</h4>
             </Card.Header>
             <Card.Body>
               <ListGroup variant="flush">
@@ -91,7 +91,7 @@ const Pricing = () => {
           <Card className="mb-4">
             <Card.Header style={{ backgroundColor: "#539e8a" }}>
               <h2>Travel Management</h2>
-              <h4>$59/per tournament</h4>
+              <h4>Starting @ $59/per tournament</h4>
             </Card.Header>
             <Card.Body>
               <ListGroup variant="flush">
@@ -100,18 +100,20 @@ const Pricing = () => {
                   Search
                 </ListGroupItem>
                 <ListGroupItem>
-                  <FontAwesomeIcon icon={faPlaneArrival} /> Flights & Ground
-                  Transportation
-                </ListGroupItem>
-                <ListGroupItem>
-                  <FontAwesomeIcon icon={faHotel} /> Hotels
-                </ListGroupItem>
-                <ListGroupItem>
-                  <FontAwesomeIcon icon={faReceipt} /> Bookings
+                  <FontAwesomeIcon icon={faPlaneArrival} />
+                  Transportation & Hotel Proposals
                 </ListGroupItem>
                 <ListGroupItem>
                   <FontAwesomeIcon icon={faPersonChalkboard} /> Tournament
                   Schedule Consultation
+                </ListGroupItem>
+                <ListGroupItem>
+                  <FontAwesomeIcon icon={faReceipt} /> Full Booking Assistance{" "}
+                  {"(Premium)"}
+                </ListGroupItem>
+                <ListGroupItem>
+                  <FontAwesomeIcon icon={faIdBadge} /> Visa and Entry
+                  Requirements Filing {"(Premium)"}
                 </ListGroupItem>
               </ListGroup>
             </Card.Body>
@@ -132,7 +134,7 @@ const Pricing = () => {
           <Card className="mb-4">
             <Card.Header style={{ backgroundColor: "#8cc751" }}>
               <h2>Match Tagging </h2>
-              <h4>$79/per match</h4>
+              <h4>Starting @ $79/per match</h4>
             </Card.Header>
             <Card.Body>
               <ListGroup variant="flush">
