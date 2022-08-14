@@ -20,8 +20,7 @@ const Reviews = () => {
               </p>
             </blockquote>
             <figcaption className="blockquote-footer">
-              Chelsea Fontenel
-              <time dateTime="2020-09-01T12:00">(July 29 2022)</time>
+              Chelsea <time dateTime="2020-09-01T12:00">(July 29 2022)</time>
             </figcaption>
           </figure>
         </Col>
@@ -36,8 +35,7 @@ const Reviews = () => {
               </p>
             </blockquote>
             <figcaption className="blockquote-footer">
-              Maddie Jessup
-              <time dateTime="2020-09-01T12:00">(July 29 2022)</time>
+              Maddie <time dateTime="2020-09-01T12:00">(July 29 2022)</time>
             </figcaption>
           </figure>
         </Col>
@@ -53,29 +51,27 @@ const Reviews = () => {
               </p>
             </blockquote>
             <figcaption className="blockquote-footer">
-              Azuma Visaya
-              <time dateTime="2020-09-01T12:00">(July 28 2022)</time>
+              Azuma <time dateTime="2020-09-01T12:00">(July 28 2022)</time>
             </figcaption>
           </figure>
         </Col>
-        {/* <Col xs={12} md={6} xl={3} className="gx-5 gy-3">
+        <Col xs={12} md={6} xl={3} className="gx-5 gy-3">
           <figure>
             <blockquote className="blockquote">
               <p>
                 <FontAwesomeIcon icon={faQuoteLeft} aria-hidden="true" />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Perspiciatis voluptates sint at! Laboriosam ducimus expedita
-                reiciendis suscipit quibusdam ad ipsa distinctio voluptatem
-                ullam adipisci id molestias, explicabo iusto atque.
+                Traveling with Yuki is super fun and full of learning. She's
+                incredibly nice and never angry. She always monitors the
+                schedule; she will never miss an entry, sign-in, or flight. I
+                consider her the best traveling coach!
                 <FontAwesomeIcon icon={faQuoteRight} aria-hidden="true" />
               </p>
             </blockquote>
             <figcaption className="blockquote-footer">
-              Firstname Lastname
-              <time dateTime="2020-09-01T12:00">(September 01 2020 12:00)</time>
+              Mao <time dateTime="2020-09-01T12:00">(July 31 2022)</time>
             </figcaption>
           </figure>
-        </Col> */}
+        </Col>
       </Row>
     </section>
   );

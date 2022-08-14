@@ -51,7 +51,11 @@ const Services = () => {
             Read More...
           </Button>
         </Col>
-        <Col xs={12} md={4} className="d-flex flex-column align-items-center">
+        <Col
+          xs={12}
+          md={4}
+          className="d-flex flex-column align-items-center mb-5"
+        >
           <div className="text-center" aria-hidden={true}>
             <FontAwesomeIcon icon={faPlaneDeparture} />
           </div>

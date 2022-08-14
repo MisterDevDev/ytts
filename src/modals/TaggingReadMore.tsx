@@ -17,8 +17,14 @@ const TaggingReadMore: FC<Props> = ({ show, closeModal }) => {
           alignContent: "center",
         }}
       >
-        <img src="https://ytts-coaching.s3.us-east-2.amazonaws.com/match_tagging_example1.jpg" />
-        <img src="https://ytts-coaching.s3.us-east-2.amazonaws.com/match_tagging_example4.jpg" />
+        <img
+          style={{ maxWidth: "100%" }}
+          src="https://ytts-coaching.s3.us-east-2.amazonaws.com/match_tagging_example1.jpg"
+        />
+        <img
+          style={{ maxWidth: "100%" }}
+          src="https://ytts-coaching.s3.us-east-2.amazonaws.com/match_tagging_example4.jpg"
+        />
       </Modal.Body>
     </Modal>
   );
