@@ -17,7 +17,15 @@ const TaggingReadMore: FC<Props> = ({ show, closeModal }) => {
           alignContent: "center",
         }}
       >
-        <img style={{ maxWidth: "100%" }} src="/tagging-example1.jpg" />
+        <ul style={{ marginBottom: "0px" }}>
+          <li>Length of the point tracking point by point</li>
+          <li>Percentages on the length of points in a whole match</li>
+          <li>Match statistics and error tracking</li>
+        </ul>
+        <img
+          style={{ maxWidth: "100%", marginTop: "0px" }}
+          src="/tagging-example1.jpg"
+        />
         <img style={{ maxWidth: "100%" }} src="/tagging-example2.jpg" />
       </Modal.Body>
     </Modal>
