@@ -1,4 +1,4 @@
-import React, { Dispatch, FC, SetStateAction } from "react";
+import React, { FC } from "react";
 import { Modal } from "react-bootstrap";
 
 interface Props {
@@ -17,14 +17,8 @@ const TaggingReadMore: FC<Props> = ({ show, closeModal }) => {
           alignContent: "center",
         }}
       >
-        <img
-          style={{ maxWidth: "100%" }}
-          src="https://ytts-coaching.s3.us-east-2.amazonaws.com/match_tagging_example1.jpg"
-        />
-        <img
-          style={{ maxWidth: "100%" }}
-          src="https://ytts-coaching.s3.us-east-2.amazonaws.com/match_tagging_example4.jpg"
-        />
+        <img style={{ maxWidth: "100%" }} src="/tagging-example1.jpg" />
+        <img style={{ maxWidth: "100%" }} src="/tagging-example2.jpg" />
       </Modal.Body>
     </Modal>
   );
